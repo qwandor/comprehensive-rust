@@ -1,7 +1,7 @@
 [workspace]
 members = [
-  "exerciser",
   "i18n-helpers",
+  "mdbook-exerciser",
   "src/exercises",
   "src/bare-metal/useful-crates/allocator-example",
   "src/bare-metal/useful-crates/zerocopy-example",
