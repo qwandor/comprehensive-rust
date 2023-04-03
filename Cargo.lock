@@ -510,16 +510,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "exerciser"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "log",
- "pretty_env_logger",
- "pulldown-cmark",
-]
-
-[[package]]
 name = "fastrand"
 version = "1.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1173,6 +1163,17 @@ dependencies = [
  "toml",
  "topological-sort",
  "warp",
+]
+
+[[package]]
+name = "mdbook-exerciser"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "log",
+ "mdbook",
+ "pretty_env_logger",
+ "pulldown-cmark",
 ]
 
 [[package]]
