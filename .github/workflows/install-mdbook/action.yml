@@ -18,3 +18,7 @@ runs:
     - name: Install i18n-helpers
       run: cargo install --path i18n-helpers --locked
       shell: bash
+
+    - name: Install exerciser
+      run: cargo install --path mdbook-exerciser --locked
+      shell: bash
